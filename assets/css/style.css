@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: #F8C6BA;
+    color: #707070;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial,  sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+.titulo img {
+    width: 390px;
+    margin-bottom:60px;
+}
+
+.calculadora {
+    width: 300px;
+    background-color: #71D3D3;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+
+.display {
+    width: 240px;
+    height: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #FFDF35;
+    border-radius: 10px;
+}
+
+
+label{
+    text-align: left;
+}
+
+input{
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 1px;
+    color:#707070;
+    text-align: right;
+}
+
+input[type=submit]{
+    display: block;
+    width: 100px;
+    height: 35px;
+    background-color: #FFDF35;
+    color:#707070;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input[type=submit]:active{
+    background-color: #FFC900;
+}
+
+#valorComDesconto{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #FF5F83;
+}
