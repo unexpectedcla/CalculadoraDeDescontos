@@ -1,5 +1,8 @@
-# CalculadoraDeDescontos
+# Calculadora De Descontos
 
-Projeto criado como estudo de JavaScript.
-Código e design criados por Clarisse Moraes.
+### Projeto criado como estudo de JavaScript.
+
+![thumbnail](assets/imagens/exemplo.png)
+
+#### Código e design criados por Clarisse Moraes.
  
