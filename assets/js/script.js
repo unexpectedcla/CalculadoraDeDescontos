@@ -2,7 +2,7 @@ function Calcular() {
     var valorElemento = document.getElementById("valor");
   
     var valor = valorElemento.value;
-    var valorNumerico = parseFloat(valor);
+    var valorNumerico = parseFloat(valor.replace(',', '.'));
     
     var descontoElemento = document.getElementById("desconto");
     
